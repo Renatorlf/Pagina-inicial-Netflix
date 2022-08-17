@@ -27,6 +27,7 @@ header .logo{
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 40px;
     padding-right: 40px;
+    border-radius: 100px;
 }
 
 header nav a {
@@ -44,9 +45,9 @@ header nav a:hover{
 /*Filme principal*/
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url("/Pagina-inicial-Netflix/img/capa-house.jpg");
+    background-image: linear-gradient(rgba(0,0,0,.100), rgba(0,0,0,.100)100%), url("../img/capa-house.jpg");
 
-    height: 400px;
+    height: 500px;
     background-size: cover;
 
     display: flex;
@@ -100,4 +101,8 @@ header nav a:hover{
     width: 100%;
     display: block;
 
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
 }
